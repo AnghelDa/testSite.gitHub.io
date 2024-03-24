@@ -1,0 +1,41 @@
+body {
+    background-color: powderblue;
+}
+
+h1 {
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
+}
+
+h1 + p {
+    font-size: 200%;
+}
+
+::marker {
+    color: blue;
+    font-size: 23px;
+}
+p {
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+    border: 2px solid blue;
+    padding: 10px;
+    margin: 20px;
+}
+
+p.center {
+    text-align: center;
+    color:red;
+}
+
+.special{
+    color: orange;
+    font-weight: bold;
+}
+
+::selection {
+    color:blueviolet;
+    background-color: aqua;
+}
